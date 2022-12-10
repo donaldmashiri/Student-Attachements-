@@ -1,0 +1,251 @@
+body{
+	background-color: antiquewhite
+}
+a{
+	text-decoration: none;
+}
+#Business_Locator{
+	background-color: antiquewhite;
+}
+
+#Business_Locator h1{
+	color: deepskyblue;
+	padding: 10px 2%;
+	margin: 0;
+}
+
+#Business_Locator p{
+	padding: 0 0 0 18%;
+	margin: 0;
+	font: 16px sans-serif; 
+	
+}
+
+#Business_Locator img{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.menu{
+	position: fixed;
+	width: 100%;
+	background-color: antiquewhite;
+	top: 0px;
+}
+
+.menu p em{
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+}
+
+#menu ul{
+	display: flex;
+	width: 100%;
+	margin: 10px 0 0 0;
+	background-color:orange;
+	padding: 0;
+}
+
+ ul li{
+	margin:0px;
+	flex:1;
+	padding:0px 0 0 0;
+	text-align: center;
+	margin: 0;
+}
+
+#menu ul li a{
+	color: #555;
+	text-align: center;
+	padding: 3%  0;
+	font-size: 14px;
+	margin:0;
+	display:block;
+}
+#menu ul li a:hover{
+	color: #000;
+}
+
+ul li{
+	list-style: none;
+}
+
+ul li a{
+	text-decoration: none;	
+}
+
+.btn-primary{
+	background-color: orange;
+	border: 1px solid orange;
+	margin: 0 2%;
+	padding: 15%;
+	color: #555;
+	text-align: center;
+}
+.btn-primary:hover{
+	color: #000;
+}
+.btn-secondary{
+	border: 1px orange solid;
+	margin: 0 2%;
+	padding: 15%;
+	color: #555;
+	text-align: center;
+	background-color: rgba(0,0,0,0.00)
+}
+.btn-secondary:hover{
+	color: #000;
+}
+.buttons center{
+	position: absolute;
+	display: flex;
+	top:15%;
+	right:12%;
+}
+.heading{
+	display: flex;
+	background-color: skyblue;
+	width: 1200px;
+}
+.vaccancy_table{
+	width: 1200px;
+}
+.vaccancy_table h2{
+	padding: 70px 0 0 0;
+}
+.heading h3{
+	flex: 1;
+	padding: 0;
+	margin: 1%;
+}
+.sub_heading{
+	display: flex;
+}
+.sub_heading a img{
+	width: 400px;
+	height: 300px;
+	flex: 1
+}
+.footer{
+	border-top: 1px orange solid;
+	background-color: lightblue;
+	margin: 4% 0 0 0;
+}
+.footer p{
+	text-align: center;
+	padding: 4px;
+}
+.wrapper{
+	border: orange 1px solid;
+	padding: 4%;
+}
+
+.wrapper h1{
+	color: orange
+}
+
+.wrapper input{
+	padding: 2%;
+}
+
+
+
+
+
+
+
+.invalid-feedback{
+	color: red;
+	display: block;
+}
+
+.login_btn{
+	background-color: skyblue;
+	border: 1px solid orange;
+	margin: 0 2%;
+	padding: 1%;
+	width: 80px;
+	height: 50px
+}
+
+.signup_btn{
+	border: 1px skyblue solid;
+	margin: 0 2%;
+	padding: 1%;
+	width: 80px;
+	height: 50px
+}
+.table_co{
+	width: 90%;
+}
+.table_co table tr td{
+	width: 30%;
+	padding: 1% 5%;
+	border: 2px solid orange;
+}
+.table_co h2{
+	color: deepskyblue;
+	text-decoration: underline;
+	padding: 2% 0 0 0;
+}
+#about_us_table{
+	width: 90%;
+}
+#about_us_table table tr td{
+	width: 45%;
+	padding: 1% 5%;
+	border: 2px solid orange
+}
+
+#about_us_table h2{
+	color: deepskyblue;
+	text-decoration: underline;
+	padding: 2% 0 0 0;
+}
+#about_us_table table tr td img{
+	width: 100%;
+	border: 1px solid orange;
+}
+#home_table{
+	padding: 5% 0 0 0;
+}
+#home_table table tr td{
+	padding: 1%;
+}
+
+#home_table h1{
+	color: #000;
+}
+#home_table table tr td a h1:hover{
+	color: deepskyblue;
+}
+#home_table table tr td img{
+	width: 70%;
+}
+.button1{
+	background-color: rgba(0,0,13,.00);
+	margin: 25px;
+	color: deepskyblue;
+	padding: 20px 0 20px 0;
+	margin: 0;
+	cursor: pointer;
+	
+	-webkit-border-radius :  100px;
+	-moz-border-radius : 100px;
+	-ms-border-radius : 100px;
+	-o-border-radius : 100px;
+	border-radius: 100px;
+	animation-name: button1;
+	animation-duration: 2s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+}
+.button1:hover{
+	color: orange;
+	cursor:pointer;
+	transition: 1s
+}
+.cover_photo{
+	background-image: url("")
+}
